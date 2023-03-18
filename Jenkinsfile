@@ -3,7 +3,7 @@ pipeline {
 		stages {
 			stage("git") {
 				steps{
-					git 'https://github.com/Arundmdevops/webAppExample.git'
+					git 'https://github.com/Arundmdevops/TicketBookingServiceJunitTesting.git'
 				}
 			}
 			stage("maven build") {
